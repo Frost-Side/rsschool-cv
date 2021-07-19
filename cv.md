@@ -17,3 +17,16 @@
 * FL Studio (пишу на любительском уровне электронную музыку)
 * Traktor DJ, Recordbox (иногда записываю миксы в различных стилях)
 * Страница в соц.сети с творчеством - [Перейти в группу](https://vk.com/djsurio_official)
+
+## Навыки:
+* HTML5
+* CSS3
+* JS - базовый уровень
+* Less / Sass / SCSS
+* Редкое использование Bootstrap и UIKit
+* BEM
+* jQuery
+* Figma, Avocode
+* Git - базовый уровень
+* Python - базовый уровень
+* Adobe Photoshop - обработка фотографий на любительском уровне
