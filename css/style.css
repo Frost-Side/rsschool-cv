@@ -1,3 +1,14 @@
+a {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+hr {
+    border-color: #ffffff;
+}
+
 .container {
     width: 100%;
     max-width: 1200px;
@@ -28,6 +39,7 @@
 }
 
 .header__heading,
+.header__subheading,
 .feature__heading {
     font-family: "Roboto Slab", serif;
     font-style: normal;
@@ -41,24 +53,118 @@
 }
 
 .feature__heading {
+    margin-top: 0;
     font-size: 48px;
 }
 
-.header__heading--align-center {
+.header__heading--align-center,
+.header__subheading--align-center {
     text-align: center;
 }
 
 .header__text,
-.feature__text {
-    font-family: "Roboto Slab", serif;
+.header__list-text,
+.feature__text,
+.feature__list-item,
+.feature__list-text,
+.footer__text {
+    font-family: "Roboto", sans-serif;
     font-style: normal;
+    line-height: 1.5em;
     font-weight: normal;
     color: #ffffff;
 }
 
 .header__text--align-center,
 .header__text--align-center,
-.feature__text--align-center {
+.feature__text--align-center,
+.footer__text--align-center {
     text-align: center;
 }
 
+.header__text {
+    font-size: 32px;
+}
+
+.header__photo {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto 0;
+    object-fit: cover;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.header__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+.header__list-separator {
+    width: 1px;
+    height: 30px;
+    background-color: #ffffff;
+}
+
+.header__list-item {
+    min-width: 200px;
+    padding: 0 10px;
+}
+
+.header__list-text > a {
+    color: #ffffff;
+}
+
+.header__list-text > a:hover {
+    color: #8428f8;
+}
+
+.header__list-text > a:active {
+    color: #eb5757;
+}
+
+.header__list-text--align-right {
+    text-align: right;
+}
+
+.feature__link,
+.footer__link {
+    color: #eb5757;
+}
+
+.feature__link:hover,
+.footer__link:hover {
+    color: #ef7878;
+}
+
+.feature__link:active,
+.footer__link:active {
+    color: #bc4545;
+}
+
+.feature__list-item--mb {
+    margin-bottom: 24px;
+}
+
+.footer__text--no-mt {
+    margin-top: 0;
+}
+
+.footer__text--no-mb {
+    margin-bottom: 0;
+}
+
+.footer--bg-black {
+    background-color: #000000;
+}
+
+.footer--bg-white {
+    background-color: #ffffff;
+}
